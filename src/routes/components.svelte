@@ -1,9 +1,12 @@
+<script>
+  import Title from '../components/Title.svelte';
+  import Text from '../components/Text.svelte';
+</script>
+
+
 <svelte:head>
 	<title>Components</title>
 </svelte:head>
 
-<h1>Every component used to build this website</h1>
-
-<ul>
-  <li>Test</li>
-</ul>
+<Title text={'Every component used to build this website'}/>
+<Text text={'Text Component'}/>
